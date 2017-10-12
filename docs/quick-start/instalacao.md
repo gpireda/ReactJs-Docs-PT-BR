@@ -5,7 +5,7 @@ React é flexível e pode ser usado em diversos projetos. Você pode criar novos
 
 Aqui estão algumas maneiras de começar:
 
-### **Testando o React**  
+## **Testando o React**  
   
 Se você está apenas interessado em testar e brincar com React, você pode usar o Codepen. Tente começar deste código de exemplo de [hello world](https://codepen.io/gaearon/pen/rrpgNB?editors=0010). Você não precisa instalar nada, você pode apenas modificar o código e ver se funcionou.
 
@@ -13,7 +13,7 @@ Se você preferir usar seu próprio editor de código, você pode fazer o [downl
 
 Se você quiser usar a aplicação completa, existem duas maneiras populares para iniciar com React: usando Create React App, ou adicionando-o a uma aplicação existente.
 
-### **Criando uma nova aplicação**  
+## **Criando uma nova aplicação**  
 [Create react app](https://github.com/facebookincubator/create-react-app) é a melhor maneira para iniciar a construção de uma nova single page application. Ele configura automaticamente para você o ambiente de desenvolvimento para que possa utilizar as últimas features do javascript, proporcionando uma boa experiência de para desenvolver e otimizar seu app para produção. Você irá precisar ter o node >= 6 na sua máquina.
 
 ```
@@ -29,7 +29,7 @@ Ele utiliza ferramentas de compilação como Babel e Webpack por baixo dos panos
 
 quando estiver pronto para realizar o deploy, executar npm run build criara uma compilação otimizada do seu aplicativo na pasta build. Você pode aprender mais sobre o create react app a partir do [README](https://github.com/facebookincubator/create-react-app#create-react-app-) e do [Guia do usuário](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#table-of-contents)
 
-### **Adicionando o React a uma aplicacao existente**
+## **Adicionando o React a uma aplicacao existente**
 
 Você não precisa reescrever seu app para começar a usar o React.
 
@@ -43,7 +43,7 @@ Um **bundler**, como o [webpack](https://webpack.js.org/) ou [Browserify](http:/
 
 Um compilador como o [Babel](http://babeljs.io/). Ele permite que você escreva código JavaScript moderno que ainda funciona em navegadores mais antigos.
 
-### **Instalando o React**
+## **Instalando o React**
 **nota:**
 
 * Uma vez instalado, recomendamos que configure um [processo de compilação para produção](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) para garantir que você esteja usando a versão mais rápida do React em produção.
@@ -67,13 +67,13 @@ npm install --save react react-dom
 
 Ambos pacotes de download yarn e npm sao do [registro npm](http://npmjs.com/).
 
-### **Habilitando ES6 e JSX**
+## **Habilitando ES6 e JSX**
 
 nós recomendamos usar o react com o [Babel](http://babeljs.io/) para que você possa utilizar o ES6 e JSX no seu código javascript. ES6 e uma atualização do javascript que torna o desenvolvimento mais fácil, e jsx e uma extensão da linguagem javascript que trabalha muito bem com React
 
 O [setup de instrução do babel](https://babeljs.io/docs/setup/) explica como configurar o Babel em diferentes ambientes de desenvolvimento. tenha certeza que instalou o [babel-preet-react](http://babeljs.io/docs/plugins/preset-react/#basic-setup-with-the-cli-) e o [babel-preset-env](http://babeljs.io/docs/plugins/preset-react/#basic-setup-with-the-cli-) e os ative no seu [.babelrc configuration](http://babeljs.io/docs/usage/babelrc/) e você estará pronto para iniciar.
 
-### **Ola mundo com ES6 e JSX**
+## **Ola mundo com ES6 e JSX**
 
 Nós recomendamos utilizar um empacotador como o [webpack](https://webpack.js.org/) ou [browserify](http://browserify.org/) para que você possa escrever codigos modulares e empacota-los juntos em pequenos pacotes para otimizar o tempo de carregamento.
 
@@ -95,7 +95,7 @@ Da mesma forma, você pode processar um componente React dentro de um elemento D
 
 [Aprenda mais sobre integração de código existente com o React](https://reactjs.org/docs/integrating-with-other-libraries.html#integrating-with-other-view-libraries)
 
-### **Versão de desenvolvimento e produção**
+## **Versão de desenvolvimento e produção**
 
 Por padrão, React inclui muitos avisos úteis. Esses avisos são muito úteis no desenvolvimento.
 
@@ -110,7 +110,7 @@ No entanto, a versão de desenvolvimento e maior e mais lenta, então você deve
 * [Creating a Production Build with Rollup](https://reactjs.org/docs/optimizing-performance.html#rollup)
 * [Creating a Production Build with webpack](https://reactjs.org/docs/optimizing-performance.html#webpack)
 
-### **Usando CDN**
+## **Usando CDN**
 Se você não quiser utilizar o npm para gerenciar os pacotes react e react-dom, voce pode utilizar através da CDN:
 
 ```
@@ -128,7 +128,7 @@ As versões acima apenas são destinadas ao desenvolvimento e não são adequada
 Para carregar uma versão específica do React e React-dom, substitua 16 pelo número da versão.
 Se você usar o Bower, o React está disponível através do pacote de react.
 
-### **Porque o atributo crossorigin?**
+## **Porque o atributo crossorigin?**
 Se você utilizar o React da CDN recomendamos manter o atributo [crossorigin](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_settings_attributes) definido:
 
 ```  <script crossorigin src="..."></script> ```
