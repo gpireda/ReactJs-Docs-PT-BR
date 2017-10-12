@@ -101,7 +101,7 @@ Por padrão, React inclui muitos avisos úteis. Esses avisos são muito úteis n
 
 No entanto, a versão de desenvolvimento e maior e mais lenta, então você deveria utilizar a versão de produção quando for realizar o deploy do seu app.
  
-[Aprenda a saber se seu site está servindo a versão correta do React](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) e como configurar o processo de construção de produção de forma mais eficiente:
+[Aprenda a saber se seu site está utilizando a versão correta do React](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) e como configurar o processo de construção de produção de forma mais eficiente:
 
 * [Creating a Production Build with Create React App](https://reactjs.org/docs/optimizing-performance.html#create-react-app)
 * [Creating a Production Build with Single-File Builds](https://reactjs.org/docs/optimizing-performance.html#single-file-builds)
