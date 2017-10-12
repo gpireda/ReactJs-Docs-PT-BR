@@ -1,11 +1,11 @@
 
-#**instalação**
+# **instalação**
 
 React é flexível e pode ser usado em diversos projetos. Você pode criar novos aplicativos com ele, mas você também pode introduzi-lo gradualmente em uma base de código existente sem fazer uma reescrita.
 
 Aqui estão algumas maneiras de começar:
 
-####**Testando o React**  
+#### **Testando o React**  
   
 Se você está apenas interessado em testar e brincar com React, você pode usar o Codepen. Tente começar deste código de exemplo de [hello world](https://codepen.io/gaearon/pen/rrpgNB?editors=0010). Você não precisa instalar nada, você pode apenas modificar o código e ver se funcionou.
 
@@ -13,7 +13,7 @@ Se você preferir usar seu próprio editor de código, você pode fazer o downlo
 
 Se você quiser usar a aplicação completa, existem duas maneiras populares para iniciar com React: usando Create React App, ou adicionando-o a uma aplicação existente.
 
-####**Criando uma nova aplicação**  
+#### **Criando uma nova aplicação**  
 Create react app a melhor maneira para iniciar a construção de uma nova single page application. Ele configura automaticamente para você o ambiente de desenvolvimento para que possa utilizar as últimas features do javascript, proporcionando uma boa experiência de para desenvolver e otimizar seu app para produção. Você irá precisar ter o node >= 6 na sua máquina.
 
 ```
