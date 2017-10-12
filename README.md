@@ -1,6 +1,6 @@
-#**ReactJs-Docs-PT-BR**
+# **ReactJs-Docs-PT-BR**
 
 
-##Quick start
+## **Quick start**
 
-###[Instalação](docs/quick-start/instalacao.md)
+#### [Instalação](docs/quick-start/instalacao.md)
