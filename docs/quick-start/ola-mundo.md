@@ -23,3 +23,5 @@ Nós também utilizamos a sintaxe do ES6 nos exemplos. Nós tentamos utilizar co
 #### **Capitulo anterior**:  [Instalação](./instalacao.md).
 
 #### **Próximo capítulo**:  [Introdução ao JSX](./introducao-jsx.md).
+
+[versão original desta pagina](https://reactjs.org/docs/hello-world.html)
