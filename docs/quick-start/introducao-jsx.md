@@ -69,6 +69,6 @@ const element = <img src={user.avatarUrl}></img>;
 
 Não coloque aspas em torno das chaves ao incorporar uma expressão de JavaScript em um atributo. Você deve usar aspas (para valores de string) ou chaves (para expressões), mas não ambas no mesmo atributo.
 
-**Atenção: **
+**Atenção:**
 **Como o JSX está mais próximo do JavaScript do que o HTML, o React DOM usa a convenção de nomenclatura da propriedade camelCase em vez de nomes de atributos HTML.**
 **Por exemplo, a classe se torna className no JSX e tabindex torna-se tabIndex.**
