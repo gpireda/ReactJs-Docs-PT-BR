@@ -43,3 +43,32 @@ ReactDOM.render(
 [Veja no Codepen](https://codepen.io/gaearon/pen/PGEjdG?editors=0010)
 
 Nós dividimos o JSX em diversas linhas para uma melhor leitura.  Embora não seja necessário, ao fazê-lo, também recomendamos encaixá-lo entre parênteses para evitar as armadilhas da inserção [automática de ponto e vírgula](https://stackoverflow.com/questions/2846283/what-are-the-rules-for-javascripts-automatic-semicolon-insertion-asi).
+
+## **JSX também é uma expressão**
+
+Depois da compilação, códigos JSX se tornam objetos Javascript.
+
+Isso quer dizer que você pode usar JSX dentro de uma declaração **if** e **for** loops, atribui-lo a variáveis, aceita-lo como argumentos e devolve-lo como função
+
+```
+function getGreeting(user) {
+  if (user) {
+    return <h1>Hello, {formatName(user)}!</h1>;
+  }
+  return <h1>Hello, Stranger.</h1>;
+}
+```
+
+## **Especificando atributos com JSX**
+
+Você pode utilizar aspas para especificar strings literais como atributo:
+
+``` 
+const element = <img src={user.avatarUrl}></img>;
+```
+
+Não coloque aspas em torno das chaves ao incorporar uma expressão de JavaScript em um atributo. Você deve usar aspas (para valores de string) ou chaves (para expressões), mas não ambas no mesmo atributo.
+
+**Atenção: **
+**Como o JSX está mais próximo do JavaScript do que o HTML, o React DOM usa a convenção de nomenclatura da propriedade camelCase em vez de nomes de atributos HTML.**
+**Por exemplo, a classe se torna className no JSX e tabindex torna-se tabIndex.**
