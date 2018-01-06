@@ -15,13 +15,13 @@ Ao contrário de elementos DOM de navegadores, elementos React são objetos puro
 
 ## **Renderizando um Elemento no DOM**
 
-Digamos que haja um <div> em algum lugar do seu arquivo HTML:
+Digamos que haja um `<div>` em algum lugar do seu arquivo HTML:
 
 ```
 <div id="root"></div>
 ```
 
-Chamamos este node do DOM de "root"(raiz) porque tudo dentro dele será gerenciado pelo React DOM.
+Chamamos este node do DOM de "root" (raiz) porque tudo dentro dele será gerenciado pelo React DOM.
 
 Aplicações construídas apenas com React geralmente possuem um único node root. Se você estiver integrando React em uma aplicação existente, talvez possua tantos nodes root isolados quanto quiser.
 
@@ -69,7 +69,7 @@ setInterval(tick, 1000);
 Ele invoca ReactDOM.render() a cada segundo através de um setInterval() de callback.
 
 **Nota:**
-**Na prática, a maioria das aplicações React chamam ReactDOM.render() apenas uma vez. Nas próximas seções aprenderemos como tal código é encapsulado em [componentes com estado]().**
+**Na prática, a maioria das aplicações React chamam ReactDOM.render() apenas uma vez. Nas próximas seções aprenderemos como tal código é encapsulado em [componentes com estado](./estado-ciclo-vida.md).**
 **Recomendamos que você não pule tópicos, porque eles são construídos um por cima do outro.**
 
 ## **React Apenas Atualiza o que é Necessário**
