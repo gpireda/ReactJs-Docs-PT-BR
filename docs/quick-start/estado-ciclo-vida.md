@@ -66,7 +66,7 @@ Para implementar isto, precisamos adicionar "estado" ao componente Clock.
 
 Estado é similar às props, mas é privado e totalmente controlado pelo componente.
 
-Nós [mencionamos anteriormente]() que componentes definidos como classes possuem algumas características adicionais. Estado local é exatamente isso: uma característica disponível apenas para classes.
+Nós [mencionamos anteriormente](./componentes-props.md#componentes-funcionais-e-componentes-em-classes) que componentes definidos como classes possuem algumas características adicionais. Estado local é exatamente isso: uma característica disponível apenas para classes.
 
 ## Convertendo uma Função para uma Classe
 
@@ -115,7 +115,7 @@ class Clock extends React.Component {
 }
 ```
 
-2. Adicione um [construtor da classe](#) que atribui o this.state inicial:
+2. Adicione um [construtor da classe](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Constructor) que atribui o this.state inicial:
 
 ```
 class Clock extends React.Component {

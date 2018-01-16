@@ -28,7 +28,7 @@ class Welcome extends React.Component {
 
 Os dois componentes acima são equivalentes do ponto de vista do React.
 
-Classes têm algumas características adicionais que discutiremos nas [próximas seções](). Até lá, utilizaremos componentes funcionais por sua concisão.
+Classes têm algumas características adicionais que discutiremos nas [próximas seções](./estado-ciclo-vida.md). Até lá, utilizaremos componentes funcionais por sua concisão.
 
 ## **Renderizando um Componente**
 
@@ -66,12 +66,12 @@ Vamos revisar o que acontece neste exemplo:
 
 1. Chamamos ReactDOM.render() com o elemento <Welcome name="Sara" />.
 2. React invoca o componente Welcome com {name: 'Sara'} como props.
-3. Nosso componente Welcome retorna um elemento <h1>Hello, Sara</h1> como resultado.
-4. React DOM eficientemente atualiza o DOM para corresponder a <h1>Hello, Sara</h1>.
+3. Nosso componente Welcome retorna um elemento `<h1>Hello, Sara</h1>` como resultado.
+4. React DOM eficientemente atualiza o DOM para corresponder a `<h1>Hello, Sara</h1>`.
 
 **Ressalva:**
 **Sempre inicie nomes de componentes com letra maiúscula.**
-**Por exemplo, <div /> representa uma tag do DOM, mas <Welcome /> representa um componente e exige que Welcome esteja no escopo.**
+**Por exemplo, `<div />` representa uma tag do DOM, mas `<Welcome />` representa um componente e exige que Welcome esteja no escopo.**
 
 ## **Compondo Componentes**
 
@@ -247,4 +247,4 @@ React é bastante flexível, mas tem uma única regra rigorosa:
 
 #### **Próximo capítulo**:  [Estado e Ciclo de Vida](./estado-ciclo-vida.md).
 
-[versão original desta pagina](https://reactjs.org/docs/state-and-lifecycle.html)
+[versão original desta pagina](https://reactjs.org/docs/components-and-props.html)
