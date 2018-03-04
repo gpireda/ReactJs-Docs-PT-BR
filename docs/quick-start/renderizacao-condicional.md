@@ -114,7 +114,7 @@ Apesar de se declarar uma variável e utilizar um `if` ser um modo aceitável de
 
 ## If em Linha com Operador Lógico &&
 
-Você pode [incorporar quaisquer expressões em JSX](./introducao-jsx.md#incorporando-expressões-no-JSX) envolvendo-as com colchetes. Isso inclui o operador lógico JavaScript &&. Isso pode ser útil para se incluir condicionalmente um elemento:
+Você pode [incorporar quaisquer expressões em JSX](./introducao-jsx.md#incorporando-expressões-no-jsx) envolvendo-as com colchetes. Isso inclui o operador lógico JavaScript &&. Isso pode ser útil para se incluir condicionalmente um elemento:
 
 ```
   function Mailbox(props) {
