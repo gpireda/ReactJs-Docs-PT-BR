@@ -13,7 +13,7 @@ Ao contrário de elementos DOM de navegadores, elementos React são objetos puro
 **Nota:**
 **Pode ser feita confusão entre elementos e um conceito mais amplamente conhecido de "componentes". Introduziremos componentes na [próxima seção](./componentes-props.md). Elementos são a base de construção de componentes, e nós o encorajamos a ler esta seção antes de prosseguir.**
 
-## **Renderizando um Elemento no DOM**
+## Renderizando um Elemento no DOM
 
 Digamos que haja um `<div>` em algum lugar do seu arquivo HTML:
 
