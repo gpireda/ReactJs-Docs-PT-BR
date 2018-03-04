@@ -11,3 +11,4 @@
 #### [Estado e Ciclo de Vida](docs/quick-start/estado-ciclo-vida.md)
 #### [Manipulando Eventos](docs/quick-start/manipulando-eventos.md)
 #### [Renderização Condicional](docs/quick-start/renderizacao-condicional.md)
+#### [Listas e Chaves](docs/quick-start/listas-e-chaves.md)
