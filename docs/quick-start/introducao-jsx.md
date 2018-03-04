@@ -12,7 +12,7 @@ Ela é chamada de JSX, é uma extensão sintática do JavaScript. Nós recomenda
 
 JSX produz "elementos" React. Exploraremos as suas renderizações no DOM na próxima seção. Abaixo, você pode encontrar os princípios básicos do JSX necessários para você começar.
 
-## **Incorporando expressões no JSX**
+## Incorporando expressões no JSX
 
 Você pode incorporar qualquer [expressão javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions) no JSX apenas envolvendo o código entre chaves.
 
