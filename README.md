@@ -9,3 +9,4 @@
 #### [Renderizando Elementos](docs/quick-start/renderizando-elementos.md)
 #### [Componentes e Props](docs/quick-start/componentes-props.md)
 #### [Estado e Ciclo de Vida](docs/quick-start/estado-ciclo-vida.md)
+#### [Manipulando Eventos](docs/quick-start/manipulando-eventos.md)
